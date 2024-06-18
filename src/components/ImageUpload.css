@@ -1,0 +1,84 @@
+.form__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: var(--color-bg); */
+    background: var(--color-bg-dark);
+
+    padding: 20px;
+  }
+  
+  .form__upload {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  .form__upload input[type="file"] {
+    padding: 5px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    border: 1px solid var(--color-footer);
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .form__upload button {
+    padding: 10px 20px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .form__prediction {
+    margin-top: 20px;
+    font-family: var(--font-family);
+    font-size: 18px;
+    color: var(--color-text);
+  }
+  
+  @media screen and (max-width: 1050px) {
+    .form__upload {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .form__upload input[type="file"],
+    .form__upload button {
+      margin-bottom: 10px;
+      font-size: 14px;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .form__upload input[type="file"],
+    .form__upload button {
+      font-size: 12px;
+    }
+  
+    .form__prediction {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 490px) {
+    .form__upload input[type="file"],
+    .form__upload button {
+      font-size: 10px;
+    }
+  
+    .form__prediction {
+      font-size: 14px;
+    }
+  }
+  
