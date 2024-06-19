@@ -10,7 +10,10 @@
 ## Available Scripts Application is dockerize
 
 In the project directory REAL-TIME_WHITEBOARD/ , you can run: docker run -p 3000:3000 66a1188d38c0
-application is accessible at (http://localhost:3000)
+application is running on port http://localhost:3000
 
+## Backend 
+In the project directory backend/ you can run: npm server.js
+Server running on port http://localhost:4000
 
 
