@@ -9,7 +9,7 @@
 
 ## Available Scripts Application is dockerize
 
-In the project directory REAL-TIME_WHITEBOARD , you can run: docker run -p 3000:3000 66a1188d38c0
+In the project directory REAL-TIME_WHITEBOARD/ , you can run: docker run -p 3000:3000 66a1188d38c0
 application is accessible at (http://localhost:3000)
 
 
